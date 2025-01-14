@@ -1,0 +1,52 @@
+<!--  Task: Create a audio video tag
+Additional Requirements:
+o Also apply properties like muted loop autoplay 
+o Create some shape using canvas tag in html 
+o Create some shape using sVG tag in html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-5</title>
+    <style>
+          rect {
+            fill: rgb(255, 178, 24);
+            stroke-width: 3px;
+            stroke: #900000;
+            stroke-dasharray: 16;
+            stroke-linecap: square;
+            stroke-dashoffset: 33;
+            stroke-linejoin: round;
+            stroke-opacity: 0.666666;
+        }
+        line {
+            stroke-width: 2px;
+            stroke: black;
+        }
+
+        text {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<audio src="small-waterfall-30750.mp3" type="audio/mp3"   controls loop></audio>
+ 
+<svg height="800px" width="100%">
+    <rect x="100" y="200" height="100px" width="150px" rx="30" ry="30"></rect>
+
+    <circle cx="150" cy="400" r="50"></circle>
+
+    <polygon points="100,100 150,25 150,75 200,0" fill="green" stroke="black" />
+
+    <line x1="300" y1="300" x2="400" y2="300"></line>
+    <line x1="300" y1="300" x2="400" y2="500"></line>
+
+    
+</svg>
+    
+</body>
+</html>

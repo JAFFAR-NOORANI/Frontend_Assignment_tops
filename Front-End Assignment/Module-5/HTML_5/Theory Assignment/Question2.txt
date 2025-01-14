@@ -1,0 +1,28 @@
+Question 2: What are additional tags used in HTML5 ?
+
+Ans : 
+
+HTML5 introduced several new tags to enhance the structure, semantics, and functionality of webpages. Here are the key additions in short:
+
+1. Structural & Semantic Tags:
+   - `<header>`, `<footer>`, `<nav>`, `<section>`, `<article>`, `<aside>`, `<main>`: Used to define specific parts of the page.
+
+   - `<mark>`, `<progress>`, `<output>`, `<details>`, `<summary>`: Used for content highlighting, progress indicators, and expandable sections.
+
+2. Form Elements:
+   - New input types like `email`, `date`, `number`, `range`.
+
+   - `<datalist>`, `<input>`, `<fieldset>`, `<legend>`: Enhance form functionality and user interaction.
+
+3. Media Elements:
+   - `<audio>`, `<video>`, `<source>`, `<track>`: For embedding media content like audio and video.
+
+4. Graphics:
+   - `<canvas>`, `<svg>`: For rendering 2D graphics and scalable vector graphics.
+
+5. Other:
+   - `<figure>`, `<figcaption>`: For media with captions.
+   
+   - `<time>`, `<wbr>`, `<bdi>`, `<bdo>`: For time, word break hints, and text direction control.
+
+These new tags make HTML more semantic, accessible, and versatile for modern web design.

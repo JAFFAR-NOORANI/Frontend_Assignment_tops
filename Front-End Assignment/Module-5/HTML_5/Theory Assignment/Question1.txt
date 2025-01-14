@@ -1,0 +1,36 @@
+Question 1: What is difference between HTML  and HTML-5
+
+
+Ans : 
+
+**HTML vs. HTML5:**
+
+1. **Doctype Declaration**:
+   - **HTML**: Requires a longer doctype declaration (e.g., `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">`).
+   - **HTML5**: Uses a simpler declaration: `<!DOCTYPE html>`.
+
+2. **New Elements**:
+   - **HTML**: Limited structural elements (e.g., `<font>`, `<center>`, `<b>`).
+   - **HTML5**: Introduces new semantic elements like `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`, etc.
+
+3. **Form Inputs**:
+   - **HTML**: Limited input types like text, password, etc.
+   - **HTML5**: Adds new input types like `email`, `date`, `range`, `tel`, etc., for better form validation.
+
+4. **Multimedia**:
+   - **HTML**: Relies on third-party plugins (like Flash) for embedding audio/video.
+   - **HTML5**: Native support for multimedia with `<audio>` and `<video>` tags.
+
+5. **Graphics**:
+   - **HTML**: No native support for graphics.
+   - **HTML5**: Includes the `<canvas>` element for drawing graphics, and support for SVG (Scalable Vector Graphics).
+
+6. **APIs**:
+   - **HTML**: No built-in APIs.
+   - **HTML5**: Introduces various APIs like the Geolocation API, Web Storage, Web Workers, and more.
+
+7. **Compatibility**:
+   - **HTML**: Older versions (e.g., HTML 4.01) may not be fully compatible with modern devices and browsers.
+   - **HTML5**: Designed to be more compatible with modern web standards and devices, including mobile.
+
+In summary, **HTML5** is a more advanced and feature-rich version of **HTML**, offering better multimedia support, new structural elements, improved forms, and enhanced APIs for web development.
