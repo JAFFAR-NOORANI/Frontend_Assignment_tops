@@ -1,0 +1,102 @@
+<!-- Lab Assignment
+ Task: Create a 3x3 grid of product cards using CSS Grid. Each card should contain: 
+o A product image. 
+o A product title. 
+o A price.
+
+Additional Requirements:
+o Use grid-template-columns to create the grid layout.
+o Use grid-gap to add spacing between the grid items. 
+o Apply hover effects to each card for better interactivity. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .imggrid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            gap: 20px;
+            padding-top: 30px;
+            padding-left: 30px;
+
+        }
+.imggrid .box img {
+    height: 350px;
+    width: 450px;
+    display: block;
+
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.imggrid .box .b1 {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4); 
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    height: 100%; 
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: bottom 0.5s ease-in-out; 
+}
+
+.imggrid .box:hover .b1 {
+    bottom: 0;
+
+}
+
+    </style>
+
+
+</head>
+<body>
+    <div class="imggrid">
+        <div class="box">
+            <img src="https://cdnimg.webstaurantstore.com/uploads/blog/2021/5/close-up-on-half-of-a-ripe-passion-fruit-min.jpg"
+                alt="">
+            <div class="b1">
+                <h2>Passion Fruit</h2>
+                <p>Rs 300/- Per Kg</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://m.media-amazon.com/images/I/713r6b-TWDL._AC_UF1000,1000_QL80_.jpg"
+                alt="">
+            <div class="b1">
+                <h2>Red Rambutan</h2>
+                <p>Rs 350/- Per Kg</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/k6xxua80/plant-sapling/g/5/5/gardens-baraba-fruit-dwarf-rare-exotic-fruit-plant-1-garden-original-imafp9wapuq3cgtk.jpeg?q=90&crop=false"
+                alt="">
+            <div class="b1">
+                <h2>Trothic Gardens Baraba Fruit Dwarf </h2>
+                <p>Rs 550/- Per Kg</p>
+            </div>
+        </div>
+        
+        </div>
+       
+        </div>
+        
+    </div>
+
+</body>
+</html>

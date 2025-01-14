@@ -1,0 +1,73 @@
+<!-- - Lab Assignment
+ Task: Create a blog post layout with the following: 
+o A title, subtitle, and body content.
+o Use at least two different fonts (one for headings, one for body content).
+o Style the text to be responsive and easy to read.
+
+Additional Requirements:
+o Use a custom font from Google Fonts. 
+o Adjust line-height, font-size, and spacing for improved readability.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYPOGRAPHY & WEB FONTS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .title {
+            padding-block: 30px;
+            margin-left: 10px;
+            text-align: center;
+            border-bottom: 3px solid black;
+
+        }
+
+        .subtitle {
+            padding-block: 30px;
+            margin-left: 10px;
+            text-align: center;
+            border-bottom: 3px dotted black;
+
+
+        }
+
+        .content {
+            margin: 10px;
+            text-wrap: wrap;
+            font-family: "Playwrite IN", serif;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blog">
+        <div class="title">
+            <h1> This Is My First Blog </h1>
+        </div>
+        <div class="subtitle">
+            <h3>Welcome To World Of HTML And CSS</h3>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi debitis animi sunt, pariatur quasi
+                reiciendis ea culpa. Vitae, numquam qui! Repellat, dignissimos beatae culpa pariatur ipsum magni eum
+                illo vitae. <br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, assumenda. Delectus assumenda facere
+                eaque amet beatae quod blanditiis harum, aut vel autem! Recusandae nam officiis exercitationem enim
+                sequi, iusto dignissimos. </p>
+        </div>
+
+    </div>
+</body>
+
+</html>

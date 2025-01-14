@@ -1,0 +1,170 @@
+<!-- Lab Assignment
+ Task: Create a profile card layout using the box model. The profile card should include: o A profile picture. o The user’s name and bio. o A button to "Follow" the user.
+Additional Requirements:
+o Add padding and borders to the elements. 
+o Ensure the layout is clean and centered on the page using CSS margins. 
+o Use the box-sizing property to demonstrate both content-box and border-box on different elements. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #6F7889;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-block: 150px;
+        }
+
+
+        .profile {
+
+            border: 2px solid black;
+            height: 70vh;
+            width: 25vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            align-content: center;
+            background-color: #E7EBEE;
+            box-sizing: content-box;
+            /* box-shadow: 5px 4px 2px #0030ff; */
+            box-shadow: 3px 3px 2px red, 0em -3px .4em 0px #3736ee;
+            border-radius: 20px
+
+
+        }
+
+        header {
+            background-color: 0, 0, 0;
+            border: 1px solid red;
+            top: 10;
+            padding: 20px;
+        }
+
+
+header .hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(20px) }
+}
+
+        .info{
+            background-color: #393C45;
+            border: 1px solid rgb(20, 33, 1);
+        }
+.info img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    
+}
+.info .img1 {
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+
+.info .bio {
+    color: white;
+    padding-inline: 20px;
+    text-wrap: wrap;
+}
+
+.info .icon ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-block: 30px;
+    font-size: 30px;
+
+}
+.info .icon ul a {
+    color: white;
+    
+}
+.info .follow {
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.info .follow .btn {
+    color: blue;
+    padding: 5px;
+    
+    
+}
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="profile">
+
+            <header>
+                <div class="cssanimation hu__hu__"><h1> M. Jaffar Noorani </h1></div>
+
+            </header>
+            <div class="info">
+                <div class="img1">
+<img src="jn - black.jpg" alt="">
+                </div>
+
+                <div class="bio">
+                    <p><span>Web Developer | Designer </span><br>Passionate web developer with expertise in creating responsive and user-friendly websites. Dedicated to delivering clean, efficient, and scalable code for seamless online experiences </p>
+
+                </div>
+
+                <div class="icon">
+                    <ul>
+
+                        <li><a href=""><span class="fab me-2 fa-facebook-f"></span></a></li>
+
+                        <li><a href=""><span class="fab me-2 fa-twitter"></span></a></li>
+
+                        <li><a href=""><span class="fa-brands fa-instagram"></span></a></li>
+
+                        <li><a href=""><span class="fa-brands fa-youtube"></span></a></li>
+
+                        <li><a href=""><span class="fab me-2 fa-pinterest"></span></a></li>
+
+                    </ul>
+                </div>
+
+                <div class="follow">
+                  
+                        <div class="btn1 btn">
+                            <a href=""><button>Hire Me</button></a>
+                        </div>
+                        <div class="btn2 btn">
+                            <a href=""><button>My Portfolio</button></a>
+                        </div>
+                    
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>

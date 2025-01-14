@@ -1,0 +1,43 @@
+Question 3: What is the difference between internal, external, and inline CSS? Discuss the
+advantages and disadvantages of each approach.
+
+
+Ans : 
+***** Internal CSS: Styles are placed within the <style> tag in the HTML document’s <head>. Best for single pages but harder to maintain for larger sites.
+
+Advantages:
+
+Useful for styling a single HTML page.
+Keeps the CSS within the same document, reducing external dependencies.
+
+Disadvantages:
+
+Styles are only applied to that specific page.
+Increases the size of the HTML file, making it less efficient.
+Difficult to maintain for larger projects with multiple pages.
+
+***** External CSS: Styles are in a separate .css file linked to HTML. Best for large sites, promotes reusability, but requires an extra HTTP request.
+
+Advantages:
+
+Styles can be reused across multiple pages, promoting consistency.
+Keeps HTML files clean and smaller.
+Easier to maintain for larger websites.
+
+Disadvantages:
+
+Requires an additional HTTP request to load the external CSS file, potentially increasing load time.
+Changes in the CSS file affect all linked pages, so testing is necessary.
+
+*****  Inline CSS: Styles are applied directly to HTML elements using the style attribute. Quick for individual elements but not scalable or maintainable for large projects.
+
+Advantages:
+
+Useful for applying styles to individual elements quickly.
+No need to link or include external CSS files.
+
+Disadvantages:
+
+Not scalable for styling multiple elements.
+Difficult to maintain, especially in large documents.
+Overrides other styles and lacks reusability.

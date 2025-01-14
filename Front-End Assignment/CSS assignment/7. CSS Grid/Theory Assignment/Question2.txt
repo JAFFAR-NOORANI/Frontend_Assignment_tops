@@ -1,0 +1,14 @@
+Question 2: Describe the grid-template-columns, grid-template-rows, and grid-gap properties. Provide examples of how to use them.
+
+Ans : 
+
+The grid-template-columns, grid-template-rows, and grid-gap properties are part of the CSS Grid Layout, which is a two-dimensional layout system for the web. These properties define the structure and spacing of grid items within a container.
+
+grid-template-columns: Defines the number and size of columns in the grid.
+Example: grid-template-columns: 100px 1fr 2fr;
+
+grid-template-rows: Defines the number and size of rows in the grid.
+Example: grid-template-rows: 200px auto;
+
+grid-gap: Sets the spacing between rows and columns in the grid.
+Example: grid-gap: 10px;

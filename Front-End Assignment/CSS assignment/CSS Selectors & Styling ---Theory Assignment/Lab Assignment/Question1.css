@@ -1,0 +1,54 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+label {
+   text-transform: capitalize;
+}
+
+
+fieldset {
+   background-color: rgb(120, 188, 252);
+   text-align: center;
+   max-width: 500px;
+   margin: auto;
+   padding: 30px;
+   margin-top: 50px;
+}
+
+legend {
+   color: blue;
+   text-align: center;
+   font-size: 30px;
+   line-height: 100px;
+   font-family: 'Dosis', sans-serif;
+   font-weight: 700;
+   color: red;
+   background: none;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #00191d;
+}
+
+button {
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 30px;
+   width: 75px;
+   height: 30px;
+}
+
+button:hover {
+   color: rgb(0, 0, 0);
+   background-color: rgb(255, 0, 0);
+}
+
+#zaff {
+   color: rgb(0, 0, 0);
+   font-size: 15px;
+
+}
+
+.form .placeholder {
+   color: aqua;
+}

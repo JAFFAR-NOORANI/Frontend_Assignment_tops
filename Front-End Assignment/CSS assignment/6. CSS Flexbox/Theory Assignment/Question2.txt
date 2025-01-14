@@ -1,0 +1,29 @@
+Question 2: Describe the properties justify-content, align-items, and flex-direction used in Flexbox.
+
+Ans : 
+
+The main Key Flexbox Properties are 
+
+1) justify-content: It helps to Aligns items horizontally along the main axis. 
+Its Value are
+flex-start (default): Items align at the start.
+flex-end: Items align at the end.
+center: Items center horizontally.
+space-between: Even spacing between items.
+space-around: Equal spacing around items.
+
+
+The main Key align-items properties are to vertically along the cross axis
+Its Values are :
+stretch (default): Items stretch to fill.
+flex-start: Items align at the top.
+flex-end: Items align at the bottom.
+center: Items center vertically.
+
+
+The main porpose of  flex-direction is to Defines the direction of the main axis.
+Its Values are :
+row (default): Items flow left to right.
+row-reverse: Items flow right to left.
+column: Items flow top to bottom.
+column-reverse: Items flow bottom to top.

@@ -1,0 +1,128 @@
+<!-- Task: Build a responsive webpage that includes: 
+ o A navigation bar. 
+ o A content section with two columns. 
+ o A footer.
+
+ Additional Requirements:
+o Use media queries to make the webpage responsive for mobile devices. 
+o On smaller screens (below 768px), stack the columns vertically. 
+o Adjust the font sizes and padding to improve readability on mobile. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="mediaquery.css">
+
+
+    <title>MEDIA QUERY</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header .logo a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(255, 255, 0);
+            border: 2px solid red;
+        }
+
+        li {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .header ul {
+            margin: 0 10px;
+            display: flex;
+            gap: 30px;
+
+        }
+
+        .flexbox {
+            display: flex;
+
+        }
+
+        .flexbox .sidebar {
+            flex-grow: 1;
+            border: 2px solid green;
+            padding-block: 30px;
+            padding-inline: 50px;
+        }
+
+        .flexbox .main {
+            flex-grow: 5;
+
+            border: 2px solid rgb(53, 0, 128);
+
+        }
+
+        .flexbox .sidebar a{
+            padding-block: 20px;
+        }
+.flexbox .main p  {
+    padding-top: 20px;
+    padding-inline: 10px;
+}
+.footer p {
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo"><a href="">
+                    <h1>ZAFF</h1>
+                </a></div>
+        </div>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="icon">
+            <i class="fa fa-search"></i>
+        </div>
+    </div>
+
+    <div class="flexbox">
+        <div class="sidebar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">mail</a></li>
+
+
+            </ul>
+        </div>
+        <div class="main">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam maiores numquam, hic, velit recusandae officia non laboriosam repellendus nulla, incidunt veritatis reiciendis? Vel similique, voluptatem quis nostrum repellendus doloremque. <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempora voluptates vitae laudantium! Nam minima, consectetur autem rerum qui nesciunt itaque eius expedita voluptatem exercitationem, atque alias distinctio pariatur explicabo.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2025 ZAFF</p>
+    </div>
+</body>
+
+</html>

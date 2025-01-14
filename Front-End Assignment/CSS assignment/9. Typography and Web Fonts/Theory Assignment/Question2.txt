@@ -1,0 +1,29 @@
+Question 2: What is the font-family property in CSS? How do you apply a custom Google Font to a webpage?
+
+
+Ans : 
+
+The `font-family` property in CSS specifies the typeface or font to be used for text. It can list multiple font names, where the browser uses the first available one. For example:  
+
+Example  in css :
+
+p {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+Applying a Custom Google Font to a Webpage
+
+1. Include the Google Font:  
+   Add a `<link>` tag in the `<head>` of your HTML file, pointing to the Google Fonts URL. For example:  
+   
+   Example in html:
+   
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   
+
+2. Use in CSS:  
+   Apply the font using the `font-family` property in your CSS:  
+   Example in css :
+   body {
+     font-family: 'Roboto', sans-serif;
+   }
