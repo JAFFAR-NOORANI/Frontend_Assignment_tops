@@ -1,0 +1,34 @@
+Question 1: What are media queries in CSS, and why are they important for responsive design?
+
+Ans : 
+
+Media Queries in CSS are used to apply styles conditionally based on the characteristics of the user's device, such as screen size, resolution, orientation, or device type. They are essential for creating **responsive designs** that adapt to different devices, ensuring a consistent and optimized user experience.
+
+### Why They're Important for Responsive Design:
+1. Device Adaptability: Allows websites to look good on various screen sizes (e.g., phones, tablets, desktops).  
+2. Improved User Experience: Enhances usability and readability by tailoring the layout to the device.  
+3. Performance Optimization: Loads only necessary styles for specific devices.  
+
+### Example:
+```css
+/* Default styles for all devices */
+body {
+  font-size: 16px;
+}
+
+/* Styles for screens wider than 768px */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Styles for screens narrower than 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+```
+
+This example adjusts the font size for different screen widths, ensuring readability across devices.
